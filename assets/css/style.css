@@ -1,0 +1,60 @@
+html, body, #__nuxt {
+  height: 100%;
+}
+
+.default-layout {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.default-sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 250px;
+  background-color: #272626;
+  color: #ffffff;
+  border-right: 1px solid black;
+}
+.default-sidebar > header, footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 20px;
+}
+.default-sidebar > section {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  border: 1px solid black;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  /*height: 100%;*/
+  /*width: 100%;*/
+  flex: 1;
+  overflow: auto;
+  background-color: #281E1C;
+  color: #ffffff;
+}
+.main-content > section {
+  display: block;
+  flex: 1;
+  padding: 20px;
+  height: 100%;
+  border: 1px solid black;
+  overflow: auto;
+}
+.main-content > header, footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  border: 1px solid black;
+  padding: 20px;
+  overflow: hidden;
+}
