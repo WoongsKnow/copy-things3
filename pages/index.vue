@@ -2,9 +2,9 @@
   <main class="main-content">
     index
     {{ data }}, {{ data2 }}
-    <button ref="el" @click="plusData()">+</button>
-    <button ref="el" @click="plusData()">+</button>
-    <button ref="el" @click="plusData()">+</button>
+    <button ref="el" @click="plusData">+</button>
+    <button ref="el" @click="plusData">+</button>
+    <button ref="el" @click="plusData">+</button>
   </main>
 </template>
 

@@ -4,6 +4,9 @@
 <!--      사이드바 해더-->
 <!--    </header>-->
     <section class="menu-wrapper">
+      <header>
+        Inbox
+      </header>
       <ul>
         <li class="menu-item menu-line">Inbox</li>
         <li class="menu-item">Upcoming</li>
@@ -12,12 +15,14 @@
         <li class="menu-item">Logbook</li>
         <li class="menu-item">trash</li>
       </ul>
+      <section>
+<!--TODO 테스트-->
+      </section>
       <ul>
         <li>테스트</li>
         <li>프로젝트</li>
       </ul>
     </section>
-
     <footer>
       사이드바 푸터
     </footer>
