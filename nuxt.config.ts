@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
   ],
   target: 'static',
-  router: {
-    base: 'copy-things3'
+  app: {
+    baseURL: 'copy-things3'
   }
 })
