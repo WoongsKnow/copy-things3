@@ -37,6 +37,9 @@ const el = ref(null);
 const importance = ref([0, 1, 2, 3, 4])
 const emergency = ref([0, 1, 2, 3, 4])
 let data2 = 0;
+/**
+ * TODO ref 선언과 그냥 선언의 차이 조사필요
+ */
 const plusData = () => {
   data.value++;
   data2++;
