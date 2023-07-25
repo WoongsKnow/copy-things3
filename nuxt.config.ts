@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   // @ts-ignore
   app: {
-    baseURL: 'copy-things3'
+    baseURL: '/copy-things3/'
   },
   css: [
     '@/assets/css/reset.css',
