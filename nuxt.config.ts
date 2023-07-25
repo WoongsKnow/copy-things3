@@ -1,6 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // @ts-ignore
+  app: {
+    baseURL: 'copy-things3'
+  },
   css: [
     '@/assets/css/reset.css',
     '@/assets/css/style.css'
@@ -8,8 +11,4 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
   ],
-  target: 'static',
-  app: {
-    baseURL: 'copy-things3'
-  }
 })
