@@ -6,10 +6,12 @@
     "dev": "nuxt dev --port 8888",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "devDependencies": {
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "push-dir": "^0.4.1"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",

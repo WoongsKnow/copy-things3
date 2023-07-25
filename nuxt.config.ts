@@ -8,4 +8,8 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
   ],
+  target: 'static',
+  router: {
+    base: 'copy-things3'
+  }
 })
