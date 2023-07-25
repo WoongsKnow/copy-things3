@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/copy-things3/'
   },
+  generate:{
+    nojekyll: true, //not working on this version
+  },
+  ssr: false,
+  target: 'static',
   css: [
     '@/assets/css/reset.css',
     '@/assets/css/style.css'
