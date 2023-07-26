@@ -1,0 +1,1 @@
+import{_ as s,j as o,c as _,d as e,t as a,b as c,w as n,o as l}from"./entry.41eabb95.js";const p={class:"hello"},r=2+1,d={__name:"test2",setup(i){return(u,m)=>{const t=o("AppAlert");return l(),_("div",p,[e(" Hello Nuxt "+a(r)+"! "),c(t,null,{default:n(()=>[e(" test ")]),_:1})])}}},v=s(d,[["__scopeId","data-v-0158a265"]]);export{v as default};

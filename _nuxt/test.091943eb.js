@@ -1,1 +1,0 @@
-import{_ as s,j as o,c as _,d as e,t as c,b as a,w as n,o as l}from"./entry.c43e9ca9.js";const p={class:"hello"},r=2+1,d={__name:"test",setup(i){return(u,m)=>{const t=o("AppAlert");return l(),_("div",p,[e(" Hello Nuxt "+c(r)+"! "),a(t,null,{default:n(()=>[e(" test ")]),_:1})])}}},v=s(d,[["__scopeId","data-v-388c77b0"]]);export{v as default};

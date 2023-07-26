@@ -1,1 +1,0 @@
-import{_ as s,a}from"./AppFooter.96e5943f.js";import{_ as c,c as _,a as r,b as o,k as m,o as p}from"./entry.c43e9ca9.js";const d={},l={class:"default-layout"},f={class:"main-content"};function i(e,u){const t=s,n=a;return p(),_("div",l,[r("main",f,[o(t),m(e.$slots,"default"),o(n)])])}const k=c(d,[["render",i]]);export{k as default};
