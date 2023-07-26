@@ -68,8 +68,22 @@
       <section>
       </section>
       <ul>
-        <li>테스트</li>
-        <li>프로젝트</li>
+        <li class="menu-item">
+          <nuxt-link to="/ikigai" class="item-title">
+            <img src="@/assets/svg/icon-ikigai.svg" alt="일반적인 별" width="24" height="24">이키가이
+          </nuxt-link>
+          <div class="menu-badge-box hidden">
+          </div>
+        </li>
+        <li class="menu-item">
+          <nuxt-link to="/mandalart" class="item-title">
+            <img src="@/assets/svg/icon-mandalart.svg" alt="일반적인 별" width="24" height="24">만다라트
+          </nuxt-link>
+          <div class="menu-badge-box hidden">
+            <span class="badge">1</span>
+            <span class="badge">4</span>
+          </div>
+        </li>
       </ul>
     </section>
     <footer>
