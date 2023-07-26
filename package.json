@@ -3,15 +3,17 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxi dev --port 8888",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
-    "postinstall": "nuxi prepare",
-    "deploy": "gh-pages --dotfiles -d .output/public"
+    "dev": "nuxt dev --port 8888",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d .output/public",
+    "pushdeploy": "push-dir --dir=.output/public --branch=gh-pages --cleanup"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "push-dir": "^0.4.1"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",
