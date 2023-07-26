@@ -1,1 +1,0 @@
-import{_ as n,o as e,c as _}from"./entry.84e4a56b.js";const t={};function r(c,o){return e(),_("header",null," 해더 ")}const u=n(t,[["render",r]]),s={};function a(c,o){return e(),_("footer",null," 푸터 ")}const l=n(s,[["render",a]]);export{u as _,l as a};

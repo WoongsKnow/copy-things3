@@ -1,0 +1,1 @@
+import{_ as o,c as r,o as u}from"./entry.c43e9ca9.js";const _={name:"_slug",async asyncData({$content:e,params:s,error:t}){const a=s.slug||"index";return{page:await e(a).fetch().catch(n=>{t({statusCode:404,message:"Page not found"})})}}};function p(e,s,t,a,c,n){return u(),r("div")}const f=o(_,[["render",p]]);export{f as default};
