@@ -108,7 +108,7 @@ export default {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 180px;
+  width: 220px;
   background-color: #272626;
   color: #ffffff;
   border-right: 1px solid black;

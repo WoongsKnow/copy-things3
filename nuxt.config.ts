@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   // @ts-ignore
   app: {
-    // baseURL: '/copy-things3/',
+    baseURL: '/copy-things3/',
     // buildAssetsDir: '_nuxt/',
   },
   // build: {
@@ -21,13 +21,13 @@ export default defineNuxtConfig({
   },
   // ssr: false,
   target: 'static',
-  nitro: {
-    output: {
-      dir: '.output',
-      serverDir: '.output/server',
-      publicDir: '.output/public'
-    }
-  },
+  // nitro: {
+  //   output: {
+  //     dir: '.output',
+  //     serverDir: '.output/server',
+  //     publicDir: '.output/public'
+  //   }
+  // },
   css: [
     '@/assets/css/reset.css',
     '@/assets/css/style.css'

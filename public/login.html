@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Arial;
+      letter-spacing: 1px;
+    }
+    *::selection {
+      background: gray;
+      color: white;
+    }
+    .cnt-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cnt-grid {
+      display: grid;
+      place-item: center;
+    }
+    body {
+      width: 100%;
+      height: 100vh;
+      background: linear-gradient(to right bottom, #2691d9, purple);
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+    .container {
+      width: 30rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+    .parent {
+      line-height: 60px;
+      text-transform: capitalize;
+      margin: 4rem;
+    }
+    .parent h1 {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 2px;
+      border-bottom: silver solid 1px;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+    .parent p {
+      font-size: 15px;
+      text-align: center;
+    }
+    .email,
+    .password {
+      display: flex;
+      justify-content: center;
+      margin: 0 0 20px 0;
+      border-bottom: solid 1px black;
+      position: relative;
+    }
+    .email input:focus-within,
+    .password input:focus-within {
+      border-bottom: solid 1px #2691d9;
+    }
+    .email input,
+    .password input {
+      width: 100%;
+      border: none;
+      background: transparent;
+      //padding-top: 15px;
+      padding: 8px;
+      color: black;
+      font-weight: bold;
+      letter-spacing: 1px;
+      font-family: cursive;
+    }
+    .email input + label,
+    .password input + label {
+      position: absolute;
+      left: 3%;
+      bottom: -50%;
+      color: #adadad;
+      pointer-events: none;
+      font-weight: bold;
+    }
+    form input:valid ~ label,
+    form input:focus ~ label {
+      bottom: 15%;
+      transition: linear 0.2s;
+    }
+    .email input:focus,
+    .password input:focus {
+      outline: none;
+    }
+    .cnt-grid button {
+      padding: 5px 100px 5px 100px;
+      background-color: transparent;
+      //border: solid 1px;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius: 25px;
+      background-color: #2691d9;
+      border: none;
+      color: white;
+      font-weight: bold;
+      letter-spacing: 2px;
+      height: 44px;
+      transition: linear 0.2s;
+    }
+    .cnt-grid button:hover {
+      box-shadow: 0 0 5px 0px #2691d9;
+    }
+    form a {
+      color: #a6a6a6;
+    }
+    form a,
+    cnt-grid a {
+      padding-left: 10px;
+    }
+    form a:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .cnt-grid a {
+      text-decoration: none;
+      text-transform: none;
+      cursor: context-menu;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body class="cnt-grid">
+  <div class="container">
+    <div class="parent">
+      <h1>Login</h1>
+      <form action="">
+        <div class="email">
+          <input type="text" id="email" required>
+          <label for="email">Username</label>
+        </div>
+        <div class="password">
+          <input type="password" id="pass">
+          <label for="pass">password</label>
+        </div>
+      </form>
+      <div class="cnt-grid">
+        <button>Login</button>
+        <a href="">Not a member?<span> Signup</span></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
