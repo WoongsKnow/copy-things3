@@ -5,7 +5,7 @@
         dd
       </div>
       <div class="box-1x2" contenteditable="true">2</div>
-      <div class="box-1x3" contenteditable="true">3</div>
+        <div class="box-1x3" contenteditable="true">3</div>
     </div>
     <div class="mandalart-sub-row">
       <div class="box-2x1" contenteditable="true">1</div>
