@@ -31,3 +31,18 @@ const 청약제품 = {
     },
   ]
 };
+
+let amount = 0;
+for (let i = 1; i < 3660; i++) {
+  amount += i;
+  amount += 200;
+}
+console.log(amount)
+// 세후 이자 1.692% / 365
+// 하루 이자 0.004635%
+let won = 20000;
+for (let i = 1; i < 3660; i++) {
+  won += won * 0.00004635;
+  won += 200;
+}
+console.log(won);
